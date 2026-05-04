@@ -11,6 +11,7 @@ Test VAST ad responses for Frequency in-show advertising QA. All URLs below retu
 | Ad Format | VAST Version | URL |
 |-----------|-------------|-----|
 | L-Bar Video | 3.0 | `https://benantier.github.io/vast_samples/L-Bar%20Video.xml` |
+| L-Bar Image | 3.0 | `https://benantier.github.io/vast_samples/L-Bar%20Image.xml` |
 
 ---
 
