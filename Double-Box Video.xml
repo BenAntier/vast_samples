@@ -45,8 +45,8 @@
           </Linear>
         </Creative>
         <Creative>
-          <CompanionAds required="all">
-            <Companion id="companion_1" width="1200" height="630">
+          <CompanionAds required="none">
+            <Companion id="companion_1" width="1920" height="1080">
               <StaticResource creativeType="image/jpeg">
                 <![CDATA[https://raw.githubusercontent.com/BenAntier/vast_samples/main/Wonderful%20Pistachios.jpg]]>
               </StaticResource>
