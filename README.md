@@ -8,9 +8,9 @@ Test VAST ad responses for Frequency in-show advertising QA. All URLs below retu
 
 ## Available Samples
 
-| Ad Format | VAST Version | URL |
+| Ad Format | Specifications | URL |
 |-----------|-------------|-----|
-| L-Bar Video | 3.0 | `https://raw.githubusercontent.com/BenAntier/vast_samples/main/L-Bar%20Video.xml` |
+| L-Bar Video | Mime-Type: video/mp4; Duration: 10s | `https://raw.githubusercontent.com/BenAntier/vast_samples/main/L-Bar%20Video.xml` |
 | L-Bar Image | 3.0 | `https://raw.githubusercontent.com/BenAntier/vast_samples/main/L-Bar%20Image.xml` |
 
 ---
