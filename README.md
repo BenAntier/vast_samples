@@ -28,6 +28,5 @@ Test VAST ad responses for Frequency in-show advertising QA. All URLs below retu
 
 ## Notes
 
-- Tracking pixels fire to `https://track.frequency.com/...` — these are stubs and will return 404, which is expected in a test environment.
-- Media files are real hosted MP4s and will play.
-- If a player enforces strict VAST validation, ensure it supports VAST 3.0.
+- Tracking pixels point to `https://track.frequency.com/...` — these are stubs and will return 404, which is expected in a test environment.
+- Media files are real hosted assets
