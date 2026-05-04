@@ -38,7 +38,7 @@
               </Tracking>
             </TrackingEvents>
             <MediaFiles>
-              <MediaFile delivery="progressive" type="video/mp4" width="1280" height="720" scalable="true" maintainAspectRatio="true">
+              <MediaFile delivery="progressive" type="video/mp4" width="960" height="540" scalable="true" maintainAspectRatio="true">
                 <![CDATA[https://raw.githubusercontent.com/BenAntier/vast_samples/main/Cement%20Hands%20_15.mp4]]>
               </MediaFile>
             </MediaFiles>
