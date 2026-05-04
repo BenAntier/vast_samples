@@ -2,7 +2,7 @@
 
 Test VAST ad responses for Frequency in-show advertising QA. All URLs below return valid XML with `Content-Type: application/xml`.
 
-**Base URL:** `https://benantier.github.io/vast_samples/`
+**Base URL:** `https://raw.githubusercontent.com/BenAntier/vast_samples/main/`
 
 ---
 
@@ -10,8 +10,8 @@ Test VAST ad responses for Frequency in-show advertising QA. All URLs below retu
 
 | Ad Format | VAST Version | URL |
 |-----------|-------------|-----|
-| L-Bar Video | 3.0 | `https://benantier.github.io/vast_samples/L-Bar%20Video.xml` |
-| L-Bar Image | 3.0 | `https://benantier.github.io/vast_samples/L-Bar%20Image.xml` |
+| L-Bar Video | 3.0 | `https://raw.githubusercontent.com/BenAntier/vast_samples/main/L-Bar%20Video.xml` |
+| L-Bar Image | 3.0 | `https://raw.githubusercontent.com/BenAntier/vast_samples/main/L-Bar%20Image.xml` |
 
 ---
 
