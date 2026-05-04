@@ -19,7 +19,7 @@
       <Creatives>
         <Creative id="c8c44g4d9e5ff06g4451c7chd13033451117c89c">
           <Linear>
-            <Duration>00:00:10</Duration>
+            <Duration>00:00:15</Duration>
             <TrackingEvents>
               <Tracking event="start">
                 <![CDATA[https://track.frequency.com/start]]>
@@ -38,17 +38,17 @@
               </Tracking>
             </TrackingEvents>
             <MediaFiles>
-              <MediaFile delivery="progressive" type="video/mp4" bitrate="3430" width="1920" height="1080" scalable="true" maintainAspectRatio="true">
-                <![CDATA[https://admedia.getpublica.com/media/prod/global/25381733-4d3b-4a23-a696-a445b07fa08f/1401/1772152427_L_Bar___Wonderful_Pistachios___Background_only.mov.mp4]]>
+              <MediaFile delivery="progressive" type="video/mp4" width="1280" height="720" scalable="true" maintainAspectRatio="true">
+                <![CDATA[https://raw.githubusercontent.com/BenAntier/vast_samples/main/Cement%20Hands%20_15.mp4]]>
               </MediaFile>
             </MediaFiles>
           </Linear>
         </Creative>
         <Creative>
           <CompanionAds required="all">
-            <Companion id="companion_1" width="1920" height="1080">
-              <StaticResource creativeType="image/png">
-                <![CDATA[https://raw.githubusercontent.com/BenAntier/vast_samples/main/Pistachios%20Image.png]]>
+            <Companion id="companion_1" width="1200" height="630">
+              <StaticResource creativeType="image/jpeg">
+                <![CDATA[https://raw.githubusercontent.com/BenAntier/vast_samples/main/Wonderful%20Pistachios.jpg]]>
               </StaticResource>
               <TrackingEvents>
                 <Tracking event="creativeView">
