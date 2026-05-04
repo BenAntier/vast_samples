@@ -1,0 +1,50 @@
+<VAST version="3.0">
+  <Ad id="ad_203655" sequence="1">
+    <InLine>
+      <AdSystem>
+        <![CDATA[DirectCampaign]]>
+      </AdSystem>
+      <AdTitle>
+        <![CDATA[L-Bar Image]]>
+      </AdTitle>
+      <Pricing model="CPM" currency="USD">
+        <![CDATA[10.00]]>
+      </Pricing>
+      <Error>
+        <![CDATA[https://track.frequency.com/error?code=[ERRORCODE]]]>
+      </Error>
+      <Impression id="impression">
+        <![CDATA[https://track.frequency.com/impression]]>
+      </Impression>
+      <Creatives>
+        <Creative id="b7b33f3c8d4eef5f3340b6bgc02922340006b78b">
+          <Linear>
+            <Duration>00:00:10</Duration>
+            <TrackingEvents>
+              <Tracking event="start">
+                <![CDATA[https://track.frequency.com/start]]>
+              </Tracking>
+              <Tracking event="firstQuartile">
+                <![CDATA[https://track.frequency.com/firstQuartile]]>
+              </Tracking>
+              <Tracking event="midpoint">
+                <![CDATA[https://track.frequency.com/midpoint]]>
+              </Tracking>
+              <Tracking event="thirdQuartile">
+                <![CDATA[https://track.frequency.com/thirdQuartile]]>
+              </Tracking>
+              <Tracking event="complete">
+                <![CDATA[https://track.frequency.com/complete]]>
+              </Tracking>
+            </TrackingEvents>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="image/png" width="1920" height="1080" scalable="true" maintainAspectRatio="true">
+                <![CDATA[https://benantier.github.io/vast_samples/Pistachios%20Image.png]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
