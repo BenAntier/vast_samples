@@ -6,12 +6,23 @@ Test VAST ad responses for Frequency in-show advertising QA. All URLs below retu
 
 ---
 
-## Available Samples
+## VAST Samples per format
 
 | Ad Format | Specifications | URL |
 |-----------|-------------|-----|
 | L-Bar Video | Mime-Type: video/mp4; Duration: 10s | `https://raw.githubusercontent.com/BenAntier/vast_samples/main/L-Bar%20Video.xml` |
-| L-Bar Image | 3.0 | `https://raw.githubusercontent.com/BenAntier/vast_samples/main/L-Bar%20Image.xml` |
+| L-Bar Image | Mime-Type: image/png; Duration: 10s | `https://raw.githubusercontent.com/BenAntier/vast_samples/main/L-Bar%20Image.xml` |
+
+---
+
+## Error Handling
+
+- If an unsupported Vast response, the Frequency Proxy URL will return an empty vast with an error pixel with the following error codes:
+  1. Unsupported Mediafile
+  2. Unsupported duration
+  3. Unsupported creative size
+  4. Broken VAST
+  5. New creative
 
 ---
 
