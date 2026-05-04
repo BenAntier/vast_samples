@@ -10,8 +10,9 @@ Test VAST ad responses for Frequency in-show advertising QA. All URLs below retu
 
 | Ad Format | Specifications | URL |
 |-----------|-------------|-----|
-| L-Bar Video | Mime-Type: video/mp4; Duration: 10s | `https://raw.githubusercontent.com/BenAntier/vast_samples/main/L-Bar%20Video.xml` |
-| L-Bar Image | Mime-Type: image/png; Duration: 10s | `https://raw.githubusercontent.com/BenAntier/vast_samples/main/L-Bar%20Image.xml` |
+| L-Bar Video | Mediafile Mime-Type: video/mp4; Duration: 10s; Size: 1080 x 432 px (width), 1920 x 243 px (height) | `https://raw.githubusercontent.com/BenAntier/vast_samples/main/L-Bar%20Video.xml` |
+| L-Bar Image | Mediafile Mime-Type: image/png; image/jpg; Duration: 10s; Size: 1080 x 432 px (width), 1920 x 243 px (height) | `https://raw.githubusercontent.com/BenAntier/vast_samples/main/L-Bar%20Image.xml` |
+| Double-Box Video + Image | Mediafile Mime-Type: video/mp4; Duration: 15s; Mediafile Size: 960 x 540 px; Companion Mime-Type: image/png; Companion Size: 1920 x 1080 px | `https://raw.githubusercontent.com/BenAntier/vast_samples/main/Double-Box%20Video.xml` |
 
 ---
 
