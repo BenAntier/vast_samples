@@ -10,9 +10,10 @@ Test VAST ad responses for Frequency in-show advertising QA. All URLs below retu
 
 | Ad Format | Specifications | URL |
 |-----------|-------------|-----|
-| L-Bar Video | **Mediafile Mime-Type:** video/mp4<br>**Duration:** 10s<br>**Size (width):** 1080 x 432 px<br>**Size (height):** 1920 x 243 px | `https://benantier.github.io/vast_samples/L-Bar%20Video.xml` |
-| L-Bar Image | **Mediafile Mime-Type:** image/png, image/jpg<br>**Duration:** 10s<br>**Size (width):** 1080 x 432 px<br>**Size (height):** 1920 x 243 px | `https://benantier.github.io/vast_samples/L-Bar%20Image.xml` |
-| Double-Box Video + Image | **Mediafile Mime-Type:** video/mp4<br>**Duration:** 15s<br>**Mediafile Size:** 960 x 540 px<br>**Companion Mime-Type:** image/png<br>**Companion Size:** 1920 x 1080 px | `https://benantier.github.io/vast_samples/Double-Box%20Video.xml` |
+| L-Bar Video | **Mediafile Mime-Type:** video/mp4<br>**Size (width):** 1080 x 432 px<br>**Size (height):** 1920 x 243 px | `https://benantier.github.io/vast_samples/L-Bar%20Video.xml` |
+| L-Bar Image | **Mediafile Mime-Type:** image/png, image/jpg<br>**Size (width):** 1080 x 432 px<br>**Size (height):** 1920 x 243 px | `https://benantier.github.io/vast_samples/L-Bar%20Image.xml` |
+| Double-Box Video + Image | **Mediafile Mime-Type:** video/mp4<br>**Mediafile Size:** 960 x 540 px<br>**Companion Mime-Type:** image/png<br>**Companion Size:** 1920 x 1080 px | `https://benantier.github.io/vast_samples/Double-Box%20Video.xml` |
+| Double-Box Video + Background | **Mediafile Mime-Type:** video/mp4<br>**Mediafile Size:** 1920 x 1080 px | `https://benantier.github.io/vast_samples/Double-Box%20Composite.xml` |
 
 ---
 
