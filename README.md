@@ -12,19 +12,8 @@ Test VAST ad responses for Frequency in-show advertising QA. All URLs below retu
 |-----------|-------------|-----|
 | L-Bar Video | **Mediafile Mime-Type:** video/mp4<br>**Size (width):** 1080 x 432 px<br>**Size (height):** 1920 x 243 px | `https://benantier.github.io/vast_samples/L-Bar%20Video.xml` |
 | L-Bar Image | **Mediafile Mime-Type:** image/png, image/jpg<br>**Size (width):** 1080 x 432 px<br>**Size (height):** 1920 x 243 px | `https://benantier.github.io/vast_samples/L-Bar%20Image.xml` |
-| Double-Box Video + Image | **Mediafile Mime-Type:** video/mp4<br>**Mediafile Size:** 960 x 540 px<br>**Companion Mime-Type:** image/png<br>**Companion Size:** 1920 x 1080 px | `https://benantier.github.io/vast_samples/Double-Box%20Video.xml` |
 | Double-Box Video + Background | **Mediafile Mime-Type:** video/mp4<br>**Mediafile Size:** 1920 x 1080 px | `https://benantier.github.io/vast_samples/Double-Box%20Composite.xml` |
-
----
-
-## Error Handling
-
-- If an unsupported Vast response, the Frequency Proxy URL will return an empty vast with an error pixel with the following error codes:
-  1. Unsupported Mediafile
-  2. Unsupported duration
-  3. Unsupported creative size
-  4. Broken VAST
-  5. New creative
+| Overlay | **Mediafile Mime-Type:** video/webm<br>**Mediafile Size:** 1920 x 1080 px<br>**Creative Size:** 480 x 270 px<br>**Position:** Bottom-left (5% padding) | `https://benantier.github.io/vast_samples/Overlay.xml` |
 
 ---
 
