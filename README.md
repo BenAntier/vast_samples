@@ -8,7 +8,7 @@ Test VAST ad responses for Frequency in-show advertising QA. All URLs below retu
 
 ## VAST Samples per format
 
-| Ad Format | <div style="min-width:320px">VAST Specifications</div> | URL |
+| Ad Format | VAST Specifications &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | URL |
 |-----------|-------------------|-----|
 | L-Bar Video | **Mime-Type:** video/mp4, video/webm, video/mov<br>**Min Duration:** 10s<br>**Max Duration:** 30s<br>**Size (width):** 1080 x 432 px<br>**Size (height):** 1920 x 243 px | `https://benantier.github.io/vast_samples/L-Bar%20Video.xml` |
 | L-Bar Image | **Mime-Type:** image/png, image/jpeg, image/jpg<br>**Min Duration:** 10s<br>**Max Duration:** 30s<br>**Size (width):** 1080 x 432 px<br>**Size (height):** 1920 x 243 px | `https://benantier.github.io/vast_samples/L-Bar%20Image.xml` |
