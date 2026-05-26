@@ -45,6 +45,11 @@
           </Linear>
         </Creative>
       </Creatives>
+      <Extensions>
+        <Extension type="isa format">
+          <![CDATA[l-shape]]>
+        </Extension>
+      </Extensions>
     </InLine>
   </Ad>
 </VAST>
