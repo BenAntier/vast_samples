@@ -45,6 +45,11 @@
           </Linear>
         </Creative>
       </Creatives>
+      <Extensions>
+        <Extension type="isa_format">
+          <![CDATA[overlay]]>
+        </Extension>
+      </Extensions>
     </InLine>
   </Ad>
 </VAST>

@@ -46,7 +46,7 @@
         </Creative>
       </Creatives>
       <Extensions>
-        <Extension type="isa format">
+        <Extension type="isa_format">
           <![CDATA[l-shape]]>
         </Extension>
       </Extensions>
