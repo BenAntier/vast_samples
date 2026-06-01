@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST
+    xmlns="http://www.iab.com/VAST" version="4.2">
+    <Ad id="123456">
+        <InLine>
+            <AdSystem>ADSERVER</AdSystem>
+            <AdTitle>
+                <![CDATA[123456]]>
+            </AdTitle>
+            <Impression id="Imp">
+                <![CDATA[IMPRESSION_COUNT]]>
+            </Impression>
+            <Error>
+                <![CDATA[ERROR_TRACKER]]>
+            </Error>
+            <Creatives>
+                <Creative id="1">
+                    <UniversalAdId idRegistry="your.registry">98765</UniversalAdId>
+                    <NonLinearAds>
+                        <TrackingEvents>
+                            <Tracking event="start">
+                                <![CDATA[START]]>
+                            </Tracking>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[FIRST]]>
+                            </Tracking>
+                            <Tracking event="midpoint">
+                                <![CDATA[MID]]>
+                            </Tracking>
+                            <Tracking event="thirdQuartile">
+                                <![CDATA[THIRD]]>
+                            </Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[COMPLETE]]>
+                            </Tracking>
+                        </TrackingEvents>
+                        <NonLinear width="1920" height="1080" scalable="true" maintainAspectRatio="true">
+                            <Duration>00:00:15</Duration>
+                            <MediaFiles>
+                                <MediaFile delivery="progressive" type="video/mp4" width="1920" height="1080" scalable="true" maintainAspectRatio="true">
+                                    <![CDATA[ https://benantier.github.io/vast_samples/Double-Box%20Wonderful%20Pistachios.mp4 ]]>
+                                </MediaFile>
+                            </MediaFiles>
+                        </NonLinear>
+                    </NonLinearAds>
+                </Creative>
+            </Creatives>
+            <Extensions>
+                <Extension type="plcmt" ext="adcom">
+                    <plcmt>8</plcmt>
+                </Extension>
+                <Extension type="pos" ext="adcom">
+                    <pos>10</pos>
+                </Extension>
+                <Extension type="playbackmethod" ext="adcom">
+                    <playbackmethod>2</playbackmethod>
+                </Extension>
+            </Extensions>
+        </InLine>
+    </Ad>
