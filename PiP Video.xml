@@ -1,0 +1,55 @@
+<VAST version="3.0">
+  <Ad id="ad_203660" sequence="1">
+    <InLine>
+      <AdSystem>
+        <![CDATA[DirectCampaign]]>
+      </AdSystem>
+      <AdTitle>
+        <![CDATA[Picture-in-Picture Video]]>
+      </AdTitle>
+      <Pricing model="CPM" currency="USD">
+        <![CDATA[10.00]]>
+      </Pricing>
+      <Error>
+        <![CDATA[https://track.frequency.com/error?code=[ERRORCODE]]]>
+      </Error>
+      <Impression id="impression">
+        <![CDATA[https://track.frequency.com/impression]]>
+      </Impression>
+      <Creatives>
+        <Creative id="g2g88k8h3i9jj40k8895g1glh57477895551g23g">
+          <Linear>
+            <Duration>00:00:11</Duration>
+            <TrackingEvents>
+              <Tracking event="start">
+                <![CDATA[https://track.frequency.com/start]]>
+              </Tracking>
+              <Tracking event="firstQuartile">
+                <![CDATA[https://track.frequency.com/firstQuartile]]>
+              </Tracking>
+              <Tracking event="midpoint">
+                <![CDATA[https://track.frequency.com/midpoint]]>
+              </Tracking>
+              <Tracking event="thirdQuartile">
+                <![CDATA[https://track.frequency.com/thirdQuartile]]>
+              </Tracking>
+              <Tracking event="complete">
+                <![CDATA[https://track.frequency.com/complete]]>
+              </Tracking>
+            </TrackingEvents>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="video/mp4" width="1920" height="1080" scalable="true" maintainAspectRatio="true">
+                <![CDATA[https://benantier.github.io/vast_samples/pip.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+      <Extensions>
+        <Extension type="isa_format">
+          <![CDATA[pip]]>
+        </Extension>
+      </Extensions>
+    </InLine>
+  </Ad>
+</VAST>
